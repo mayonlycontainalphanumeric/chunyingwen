@@ -1,0 +1,37 @@
+
+===== 用户反馈 =====
+提交时间：Mon Aug 03 15:58:17 GMT+08:00 2026
+登录邮箱：dongquanshaokao@163.com
+反馈内容：
+Lint found fatal errors while assembling a release target.
+
+Fix the issues identified by lint, or create a baseline to see only new errors.
+To create a baseline, run `gradlew updateLintBaseline` after adding the following to the module's build.gradle file:
+```
+android {
+    lint {
+        baseline = file("lint-baseline.xml")
+    }
+}
+```
+For more details, see https://developer.android.com/studio/write/lint#snapshot
+
+D:\andapk\plsenteranappname\app\src\main\AndroidManifest.xml:168: Error: The default constructor must be public in com.diary.plsenteranappname.AchievementSyncHelper [Instantiatable]
+            android:name=".AchievementSyncHelper"
+                          ~~~~~~~~~~~~~~~~~~~~~~
+D:\andapk\plsenteranappname\app\src\main\AndroidManifest.xml:168: Error: AchievementSyncHelper must extend android.app.Activity [Instantiatable]
+            android:name=".AchievementSyncHelper"
+                          ~~~~~~~~~~~~~~~~~~~~~~
+
+   Explanation for issues of type "Instantiatable":
+   Activities, services, broadcast receivers etc. registered in the manifest
+   file (or for custom views, in a layout file) must be "instantiatable" by
+   the system, which means that the class must be public, it must have an
+   empty public constructor, and if it's an inner class, it must be a static
+   inner class.
+
+   If you use a custom AppComponentFactory to instantiate app components
+   yourself, consider disabling this Lint issue in order to avoid false
+   positives.
+
+2 errors, 0 warnings
