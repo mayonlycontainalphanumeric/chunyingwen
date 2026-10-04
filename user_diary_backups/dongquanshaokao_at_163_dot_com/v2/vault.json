@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "kdf": "PBKDF2-HMAC-SHA256",
+  "iterations": 100000,
+  "pw_salt": "BHSEhlQ28+H5e4PcF0q+SA==",
+  "pw_wrapped": "WOF9mOjGPJ5qFVG8+q4dQeTE4Cs+uEDwT\/tnMd+62lZeX8NJsJgfTVXAcbaigXI3jkKpdqxgla+zmX6m",
+  "rk_iterations": 10000,
+  "rk_salt": "0ZJtY7YYUJDtnmvQ61jDpQ==",
+  "rk_wrapped": "0klFxWhf\/xE0cU3XlwqdySgl9d6wkhbYNklk68iMnb9OvZRzw2nUb+LEtJwDOIfUakTuReFvaeeM2kVz",
+  "key_id": "e1f90980d1b732c5",
+  "created": 1791091977881
+}
