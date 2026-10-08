@@ -2,11 +2,11 @@
   "version": 1,
   "kdf": "PBKDF2-HMAC-SHA256",
   "iterations": 100000,
-  "pw_salt": "nP8DAZB7b9x+3BNSgmZeww==",
-  "pw_wrapped": "pSBqCi2UFG3bKvvW52cQfF/lXtvEj7hI79X0C042Y4qdMIoYj7Il3Lc3C3bopqysNFf44flNlNyH9TeM",
+  "pw_salt": "kpn70UEitHTppiGBJ\/OJxg==",
+  "pw_wrapped": "4L4qXp1M2ulra+dCyAlwKLJ0i457HDEfv+dYdp9EmIkpYY+hQealy4NtSGANEX28agd4hw9tTg\/af2nx",
   "rk_iterations": 10000,
   "rk_salt": "rfq6IF3eqLe+Aj6ohcByZA==",
-  "rk_wrapped": "W7VvNa15MZtXJYODBa363XqnBibIpgg76vljo+iiN3S3gg0poOIhcFapawSHvKQZFYQ+/rhYxc+DmgMG",
+  "rk_wrapped": "W7VvNa15MZtXJYODBa363XqnBibIpgg76vljo+iiN3S3gg0poOIhcFapawSHvKQZFYQ+\/rhYxc+DmgMG",
   "key_id": "c802353528dd6b7f",
   "created": 1791132126350
 }
